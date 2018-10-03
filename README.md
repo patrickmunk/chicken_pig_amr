@@ -5,6 +5,11 @@ You will need
 * Snakemake
 * Conda
 
+Practice run:
+```sh
+snakemake -np
+```
+
 Simple usage:
 ```sh
 snakemake --use-conda 
