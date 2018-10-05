@@ -42,7 +42,7 @@ rule megahit:
 	threads: 8
 	shell: 
 		'''
-		megahit --continue --k-list 27,47,67,87 --kmin-1pass -m 12e+10 --presets meta-large --min-contig-len 1000 -t {threads} -1 {input.R1} -2 {input.R2} -o {output.di}"
+		megahit --continue --k-list 27,47,67,87 --kmin-1pass -m 12e+10 --presets meta-large --min-contig-len 1000 -t {threads} -1 {input.R1} -2 {input.R2} -o {output.di}
 		'''
 
 
